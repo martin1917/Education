@@ -1,4 +1,5 @@
 ﻿#include <iostream>
+#include <clocale>
 using namespace std;
 
 int Sum(int map[], int k);
@@ -29,7 +30,7 @@ int Sum(int map[], int k)
     int sum = 0;
     for (int i = 0; i < k; i++)
     {
-        sum += map[i];
+        if(map[i] > 0) sum += map[i];
     }
 
     return sum;
