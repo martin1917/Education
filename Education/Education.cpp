@@ -22,7 +22,7 @@ int main()
         cout << "map[" << i << "]" << " = " << map[i] << endl;
     }
 
-    cout <<"\nСумма эл-тов массива * 2 = "<< Sum(map, k) << endl;
+    cout <<"\nСумма эл-тов МАССИВА * 2 = "<< Sum(map, k) << endl;
 }
 
 int Sum(int map[], int k)
